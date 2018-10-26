@@ -1,0 +1,14 @@
+{
+  "name": "dssd",
+  "version": "1.0.0",
+  "description": "Wep Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Snyder",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  }
+}
