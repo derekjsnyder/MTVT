@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "eslint-config-with-prettier": "^4.2.0",
+    "img": "^3.0.3",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   }

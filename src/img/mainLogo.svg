@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 801 451" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-480,-199.61)">
+        <g id="Logo" transform="matrix(0.952381,-0.000464797,0.000406698,0.833333,-53.3983,66.927)">
+            <rect x="560" y="160" width="840" height="540" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="560" y="160" width="840" height="540"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Logo1" serif:id="Logo" transform="matrix(1.18421,2.1684e-19,0,1.07719,-198.668,-32.6975)">
+                    <g transform="matrix(1,0,0,1,60,1.13687e-13)">
+                        <path d="M617.733,622.28L582.267,622.28L582.267,177.72L617.733,177.72L617.733,622.28Z"/>
+                        <g transform="matrix(0.285714,0,0,2e-06,428.571,200)">
+                            <path d="M880,210L600,200" style="fill:rgb(4,0,0);"/>
+                            <path d="M942.067,-2.14748e+06L537.933,-2.14748e+06L537.933,-2.14748e+06L942.067,-2.14748e+06L942.067,-2.14748e+06Z"/>
+                        </g>
+                        <g transform="matrix(0.285714,0,0,2e-06,428.571,600)">
+                            <path d="M880,210L600,200"/>
+                            <path d="M942.067,-2.14748e+06L537.933,-2.14748e+06L537.933,-2.14748e+06L942.067,-2.14748e+06L942.067,-2.14748e+06Z"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-70,2.84217e-14)">
+                        <g transform="matrix(-1,-1.22465e-16,1.22465e-16,-1,2000,800)">
+                            <path d="M582.267,177.72L617.733,177.72L617.733,622.28L582.267,622.28L582.267,177.72Z"/>
+                        </g>
+                        <g transform="matrix(-0.285714,-2.44929e-22,3.49899e-17,-2e-06,1571.43,600)">
+                            <path d="M880,210L600,200" style="fill:rgb(4,0,0);"/>
+                            <path d="M537.933,-2.14748e+06L942.067,-2.14748e+06L942.067,-2.14748e+06L537.933,-2.14748e+06L537.933,-2.14748e+06Z"/>
+                        </g>
+                        <g transform="matrix(-0.285714,-2.44929e-22,3.49899e-17,-2e-06,1571.43,200)">
+                            <path d="M880,210L600,200" style="fill:rgb(4,0,0);"/>
+                            <path d="M537.933,-2.14748e+06L942.067,-2.14748e+06L942.067,-2.14748e+06L537.933,-2.14748e+06L537.933,-2.14748e+06Z"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(0.886666,0,0,1.11401,189.333,21.4984)">
+                        <text x="725.339px" y="454.469px" style="font-family:'Bahnschrift', sans-serif;font-size:288px;">D<tspan x="914.627px " y="454.469px ">S</tspan></text>
+                        <path d="M725.339,359.969L1091.95,359.969L1091.95,367L725.339,367L725.339,359.969ZM725.339,374.031L1091.95,374.031L1091.95,381.063L725.339,381.063L725.339,374.031Z"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-20,-2.27374e-13)">
+                        <g transform="matrix(0.886666,0,0,1.11401,155.733,-72.964)">
+                            <text x="606.528px" y="674.078px" style="font-family:'Bahnschrift', sans-serif;font-size:48px;">S<tspan x="647.075px 689.051px 726.879px 763.09px 812.613px 854.684px 896.965px " y="674.078px 674.078px 674.078px 674.078px 674.078px 674.078px 674.078px ">OFTWARE</tspan></text>
+                        </g>
+                        <g transform="matrix(0.886666,0,0,1.20313,475.733,-133.026)">
+                            <text x="616.38px" y="673.938px" style="font-family:'Corbel-Bold', 'Corbel', sans-serif;font-weight:700;font-size:48px;">D<tspan x="650.362px 678.532px 710.053px 738.223px 763.065px 799.227px 828.967px 869.535px 897.705px 933.539px " y="673.938px 673.938px 673.938px 673.938px 673.938px 673.938px 673.938px 673.938px 673.938px 673.938px ">EVELOPMENT</tspan></text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

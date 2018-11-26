@@ -27,7 +27,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: slategray;
+  background: url(./img/Baselayer.jpg);
   overflow-x: hidden;
   transition: 0.2s;
 }
@@ -39,17 +39,9 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: slategray;
+  background: url(./img/Baselayer.jpg);
   overflow-x: hidden;
   transition: 0.2s;
-}
-
-.base button {
-  background-color: black;
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
 }
 
 .close-button {
@@ -66,4 +58,33 @@ body {
 
 button:focus {
   outline: 0;
+}
+
+.navigation {
+  height: 100px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigation li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: whitesmoke;
 }
