@@ -7,6 +7,13 @@
     margin: 0;
     font-family: "Lato", Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  .welcome {
+    background-color: #24292E;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
  
   .welcome-title {
         position: absolute;
