@@ -6,7 +6,7 @@ class Welcome extends React.Component {
         return(
             <div>
                 <h1 className="welcome-title">Welcome to MTVT</h1>
-                <Link to="/daily">
+                <Link to="/home">
                     <button className="welcome-enter">Enter</button>
                 </Link>
             </div>

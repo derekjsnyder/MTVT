@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    color: white;
   }
   
   body {
@@ -18,9 +17,8 @@
         text-align: center;
         text-transform: uppercase;
         font-family: "Lato", sans-serif;
-      }
-
-      
+  }
+  
   .welcome-enter {
         position: absolute;
         color: white;
@@ -35,8 +33,69 @@
         width: 100px;
         height: 100px;
         cursor: pointer;
-      }
+  }
       
-      
+  .header {
+    background-color: white;
+    color: grey;
+  }
   
-  
+  .header button {
+    color: grey;
+    background-color: transparent;
+    border: none;
+    font-size: 2em; 
+  }
+
+  .header h1 {
+    position: absolute;
+    top: -5px;
+    left: calc(50% - 45px);
+    letter-spacing: 5px;
+  }
+
+  /* CSS Nav */
+  .nav {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+}
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* grid system -- mobile first! */
+.container {
+  margin: 0
+}
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px)  {
+  .container {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}

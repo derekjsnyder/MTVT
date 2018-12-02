@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router } from "@reach/router";
 import Welcome from "./Welcome";
-import Daily from "./Daily";
+import Layout from "./Layout";
+import Daily from "./Components/Daily";
 
 class App extends React.Component {
  
@@ -11,7 +12,9 @@ class App extends React.Component {
       <div>
         <Router>
           <Welcome exact path="/" />
-          <Daily path="/daily" />
+          <Layout path="/home">
+            <Daily path="/"/>
+          </Layout>
         </Router>
       </div> 
     );
