@@ -1,90 +1,42 @@
-body {
-  margin: 0;
-}
+* {
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  body {
+    background-color: #24292E;
+    margin: 0;
+    font-family: "Lato", Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  .welcome-title {
+        position: absolute;
+        top: calc(50% - 75px);
+        left: calc(50% - 150px);
+        width: 300px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+      }
 
-.welcome-title {
-  font-size: 40px;
-  position: absolute;
-  width: 300px;
-  top: 50%;
-  left: calc(50% - 150px);
-  color: white;
-  font-family: "Quicksand", sans-serif;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background: url(./img/Baselayer.jpg);
-  overflow-x: hidden;
-  transition: 0.2s;
-}
-
-.overlay-open {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background: url(./img/Baselayer.jpg);
-  overflow-x: hidden;
-  transition: 0.2s;
-}
-
-.close-button {
-  font-family: "Mali", cursive;
-  font-size: 64px;
-  position: absolute;
-  background-color: transparent;
-  color: white;
-  right: 5%;
-  top: 5%;
-  border: none;
-  cursor: pointer;
-}
-
-button:focus {
-  outline: 0;
-}
-
-.navigation {
-  height: 100px;
-}
-
-.navigation ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navigation li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: grey;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  color: whitesmoke;
-}
+      
+  .welcome-enter {
+        position: absolute;
+        color: white;
+        bottom: calc(20%);
+        left: calc(50% - 50px);
+        border: 2px solid white; /* Green */
+        border-radius: 50%;
+        background-color: transparent;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 16px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+      }
+      
+      
+  
+  
