@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Router } from "@reach/router";
-import Welcome from "./Welcome";
-import Daily from "./Daily";
+import Welcome from "./Components/Welcome";
+import Daily from "./Components/Daily";
 
 class App extends React.Component {
  
